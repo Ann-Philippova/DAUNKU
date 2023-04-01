@@ -1,0 +1,197 @@
+@media (max-width: 1400px) {
+    .container--seller {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seller {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1310px) {
+    .interior {
+        margin-top: 40px;
+    }
+
+    .seller-title {
+        padding-bottom: 70px;
+    }
+
+    .interior-title h1 {
+        padding-bottom: 30px;
+    }
+
+    .int {
+        flex-direction: column;
+        gap: 32px;
+    } 
+
+    .interior-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .living-room {
+        margin: 32px auto;
+        width: 700px;
+    }
+
+    .living-room h2 {
+        text-align: center;
+        width: auto;
+    }
+
+    .container--interior {
+        margin-top: 100px;
+    }
+
+    .container--care {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .care {
+        margin-top: 100px;
+    }
+
+    .care-text {
+        width: 900px;
+    }
+
+    .care-title {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .care-plants {
+        margin: 0 auto;
+    }
+
+    .steps-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .container--care img {
+        margin-top: 60px;
+    }
+
+    .container--footer {
+        padding-top: 80px;
+    }
+
+    .newslatter {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .newslatter-bg h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1139px) {
+
+    /* Header */
+
+    .header {
+        height: 900px;
+    }
+
+    .container--header {
+        justify-content: flex-start;
+        row-gap: 50px;
+    }
+
+    .header__content {
+        padding-top: 40px;
+    }
+
+    .nav {
+        padding-top: 40px;
+    }
+
+    .header__title {
+        font-size: 60px;
+        padding-top: 40px;
+    }
+
+    .header__content p {
+        padding-top: 20px;
+        width: 503px;
+        font-size: 18px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav__shop {
+        display: none;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+    }
+
+    .container--seller {
+        height: 2200px;
+        margin-bottom: 20px;
+    }
+
+    .seller-product {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+    .seller-title {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .container--service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 60px;
+    }
+
+    .service-work {
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer--menu {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .footer--menu dt {
+        font-size: 34px;
+    }
+
+    .living-room {
+        margin: 32px auto;
+        width: 700px;
+    }
+}
+
+@media (max-width: 320px) {
+    .living-room {
+        margin: 32px auto;
+        min-width: 300px;
+    }
+}
